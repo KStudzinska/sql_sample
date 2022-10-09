@@ -4,7 +4,8 @@ This is my sql portfolio.
 
 ## Database schema
 
-<img src="/img/northwind-er-diagram.png" alt="dbSchema" title="Database Schema">
+![northwind-er-diagram](https://user-images.githubusercontent.com/113541814/194773708-e808c00f-db1d-4292-b6c7-dbd55fa74b48.png)
+
 
 ## Task 1
 Select all orders from the "Orders" table, sorted ascending by the "OrderDate" column and descending by the "ShippedDate" column.
