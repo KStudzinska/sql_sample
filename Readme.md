@@ -1,6 +1,6 @@
 # SQL Portfolio
 
-This is my sql portfolio please write something here.
+This is my sql portfolio.
 
 ## Database schema
 
