@@ -31,7 +31,7 @@ Selects all fields with "Customers" where the country is Madrid or London.
 ```sql
 SELECT *
 FROM Customers
-WHERE City='Madrid' OR City='London';
+WHERE City = 'Madrid' OR City = 'London';
 ```
 
 ## Task 4
@@ -62,14 +62,14 @@ View customers and their orders.
 SELECT c.CompanyName, c.Country, o.OrderDate
 FROM Customers c
 INNER JOIN Orders o
-ON c.CustomerID=o.CustomerID;
+ON c.CustomerID = o.CustomerID;
 ```
 
 ## Task 7
 Combining columns and using alias, in the table "Suppliers".
 
 ```sql
-SELECT CompanyName, Address + ',' + Region + ',' + PostalCode
+SELECT CompanyName, Address + ',' + Region + ',' + PostalCode 
 + ' ' + City + ',' + Country AS Address, Phone + ',' + Fax AS Contact information
 FROM Suppliers;
 ```
@@ -88,7 +88,7 @@ Deletes the product named "Tofu" from the "Products" table.
 
 ```sql
 DELETE FROM Products 
-WHERE ProductName='Tofu';
+WHERE ProductName = 'Tofu';
 ```
 
 ## Task 10
