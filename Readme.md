@@ -17,7 +17,7 @@ ORDER BY OrderDate ASC, ShippedDate DESC;
 ```
 
 ## Task 2
-selects all products with a product name that have "k" in any position.
+Selects all products with a product name that have "k" in any position.
 
 ```sql
 SELECT *
